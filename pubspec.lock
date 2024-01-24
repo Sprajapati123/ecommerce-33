@@ -432,14 +432,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
-  loader_overlay:
-    dependency: "direct main"
-    description:
-      name: loader_overlay
-      sha256: "74fab08c4f2f686e2cc32887cbc76a90d685afd2ffb79526221fc9e7cf027320"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.2"
   matcher:
     dependency: transitive
     description:
@@ -480,6 +472,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
+  overlay_kit:
+    dependency: "direct main"
+    description:
+      name: overlay_kit
+      sha256: "5822b7d2c77bbf034e41186ab0edd7c8466b5662ed8e7a605a7342047d82df4f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.8"
   path:
     dependency: transitive
     description:

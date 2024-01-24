@@ -45,7 +45,7 @@ dependencies:
   #
   path_provider: ^2.0.11
   provider: ^6.0.5
-  loader_overlay: ^2.1.0
+  overlay_kit: ^1.0.8
   flutter_local_notifications: ^13.0.0
   http: ^0.13.5
   google_fonts: ^4.0.1

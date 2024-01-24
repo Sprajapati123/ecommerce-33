@@ -7,6 +7,7 @@ import 'package:ecommerce/models/product_model.dart';
 import 'package:ecommerce/viewmodels/auth_viewmodel.dart';
 import 'package:ecommerce/viewmodels/category_viewmodel.dart';
 import 'package:ecommerce/viewmodels/product_viewmodel.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 import '../../viewmodels/global_ui_viewmodel.dart';
@@ -158,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> {
             margin: EdgeInsets.symmetric(horizontal: 10),
             child: Text(
               "Welcome,",
-              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              style: GoogleFonts.poppins(fontSize: 30, fontWeight: FontWeight.bold),
             )),
         Container(
             margin: EdgeInsets.symmetric(horizontal: 10),
