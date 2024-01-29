@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             margin: EdgeInsets.symmetric(horizontal: 10),
                           child: Text(
                             "Products",
-                            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                            style: GoogleFonts.poppins(fontSize: 30, fontWeight: FontWeight.bold),
                           )),
                       Container(
                         margin: EdgeInsets.symmetric(horizontal: 10),

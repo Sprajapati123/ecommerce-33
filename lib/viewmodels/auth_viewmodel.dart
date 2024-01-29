@@ -12,6 +12,13 @@ import '../repositories/favorite_repositories.dart';
 import '../repositories/product_repositories.dart';
 
 class AuthViewModel with ChangeNotifier {
+  int _a = 1;
+  int get a => _a;
+
+  addValue() {
+    _a++;
+  }
+
   User? _user = FirebaseService.firebaseAuth.currentUser;
 
   User? get user => _user;
