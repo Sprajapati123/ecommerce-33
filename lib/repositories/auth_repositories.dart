@@ -45,7 +45,6 @@ class AuthRepository {
 
   Future<UserModel> getUserDetail(String id, String? token) async {
     try {
-
       final response = await userRef.doc(id).get();
       var user = response.data()!;
       user.fcm = token ?? "";

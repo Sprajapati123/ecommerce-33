@@ -247,6 +247,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                     Container(
                       width: double.infinity,
                       child: ElevatedButton(
+                        key: Key('addProduct'),
                           style: ButtonStyle(
                             shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                                 RoundedRectangleBorder(

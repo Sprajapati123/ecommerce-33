@@ -50,19 +50,21 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBggrlboj8lU1PnMbT9CoqnOuXHfABXrJY',
-    appId: '1:142964602317:android:79b739c9f1f4841e794084',
-    messagingSenderId: '142964602317',
-    projectId: 'batch33-ecommerce',
-    storageBucket: 'batch33-ecommerce.appspot.com',
+    apiKey: 'AIzaSyBNuWfRUkGzq6JX6pdpZzNdHWgxebgPt7w',
+    appId: '1:672844108107:android:aab83632d8e4e9653dd8ce',
+    messagingSenderId: '672844108107',
+    projectId: 'ecom-7db57',
+    databaseURL: 'https://ecom-7db57-default-rtdb.firebaseio.com',
+    storageBucket: 'ecom-7db57.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC1NuP3nMasANwTQnYNX60HOc_p2X67pAk',
-    appId: '1:142964602317:ios:689bb993cb2e66d4794084',
-    messagingSenderId: '142964602317',
-    projectId: 'batch33-ecommerce',
-    storageBucket: 'batch33-ecommerce.appspot.com',
+    apiKey: 'AIzaSyAAHuW1uYcT-v9oTjM2a6MU5aNkVNLCTCk',
+    appId: '1:672844108107:ios:8fe8c19500875a513dd8ce',
+    messagingSenderId: '672844108107',
+    projectId: 'ecom-7db57',
+    databaseURL: 'https://ecom-7db57-default-rtdb.firebaseio.com',
+    storageBucket: 'ecom-7db57.appspot.com',
     iosBundleId: 'com.example.ecommerce',
   );
 }

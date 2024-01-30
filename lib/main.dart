@@ -45,11 +45,11 @@ class MyApp extends StatelessWidget {
       ],
       child: OverlayKit(
         child: Consumer<GlobalUIViewModel>(builder: (context, loader, child) {
-          if (loader.isLoading) {
-            OverlayLoadingProgress.start();
-          } else {
-            OverlayLoadingProgress.stop();
-          }
+          // if (loader.isLoading) {
+          //   OverlayLoadingProgress.start();
+          // } else {
+          //   OverlayLoadingProgress.stop();
+          // }
           return MaterialApp(
             title: 'Flutter Demo',
             debugShowCheckedModeBanner: false,
