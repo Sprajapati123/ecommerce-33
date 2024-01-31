@@ -58,7 +58,7 @@ void main() {
     expect(find.text('Item 4'), findsOneWidget);
 
     // Verify that there are no other ListTiles present
-    expect(find.byKey(Key('listTile')),
+    expect(find.byKey(const Key('listTile')),
         findsNWidgets(5)); // There should be exactly 5 ListTiles
   });
 }

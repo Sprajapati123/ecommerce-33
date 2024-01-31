@@ -50,6 +50,7 @@ dependencies:
   google_fonts: ^4.0.1
   fake_cloud_firestore:
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
