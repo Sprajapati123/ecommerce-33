@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Widget33C extends StatelessWidget {
-  const Widget33C({super.key});
+class Widget33B extends StatelessWidget {
+  const Widget33B({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class Widget33C extends StatelessWidget {
         children: List.generate(
             5,
             (index) => ListTile(
-              key: Key('listTile'),
+              key: Key("listTile"),
                   title: Text("Item $index"),
                 )),
       ),

@@ -1,12 +1,9 @@
-class CounterClass{
-  var _a = 1;
+class CounterClass {
+  int _a = 1;
 
-   get a => _a;
+  int get a => _a;
 
-
-
-  addValue(){
-    print(_a.runtimeType);
+  addValue() {
     _a++;
   }
 }
